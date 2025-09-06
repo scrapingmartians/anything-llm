@@ -1,6 +1,6 @@
 [build]
-builder = "dockerfile"
-dockerfilePath = "docker/Dockerfile"
+builder = "docker"
+dockerImage = "mintplexlabs/anythingllm:latest"
 
 [deploy]
 healthcheckPath = "/"
